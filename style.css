@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 30px;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+.controls{
+    margin: 20px 0;
+}
+
+.controls input,
+.controls select{
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#studentList{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#studentList th,
+#studentList td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+#studentList th{
+    background-color: steelblue;
+    color: white;
+}
+
+#formTable{
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#formTable td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#formTable input,
+#formTable select{
+    width: 200px;
+    padding: 6px;
+}
+
+button{
+    padding: 8px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
